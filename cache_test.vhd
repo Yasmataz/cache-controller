@@ -2,7 +2,7 @@
 -- Company: 
 -- Engineer:
 --
--- Create Date:   00:44:29 10/30/2020
+-- Create Date:   10:16:57 10/30/2020
 -- Design Name:   
 -- Module Name:   C:/Users/Yasamin/Documents/Classes/COE758/CacheController-master/cache_test.vhd
 -- Project Name:  CACHE2
@@ -42,19 +42,20 @@ ARCHITECTURE behavior OF cache_test IS
     COMPONENT CacheController
     PORT(
          clk : IN  std_logic;
-         ADDR : OUT  std_logic_vector(15 downto 0);
-         DOUT : OUT  std_logic_vector(7 downto 0);
-         sAddra : OUT  std_logic_vector(7 downto 0);
-         sDina : OUT  std_logic_vector(7 downto 0);
-         sDouta : OUT  std_logic_vector(7 downto 0);
-         sD_Addra : OUT  std_logic_vector(15 downto 0);
-         sD_Dina : OUT  std_logic_vector(7 downto 0);
-         sD_Douta : OUT  std_logic_vector(7 downto 0);
-         cacheAddr : OUT  std_logic_vector(7 downto 0);
-         WR_RD : OUT  std_logic;
-         MEMSTRB : OUT  std_logic;
-         RDY : OUT  std_logic;
-         CS : OUT  std_logic
+         addr : OUT  std_logic_vector(15 downto 0);
+         data_out : OUT  std_logic_vector(7 downto 0);
+			cpu_out : OUT  std_logic_vector(7 downto 0);
+         sram_address : OUT  std_logic_vector(7 downto 0);
+         sram_data_in : OUT  std_logic_vector(7 downto 0);
+         sram_data_out : OUT  std_logic_vector(7 downto 0);
+         sdram_address : OUT  std_logic_vector(15 downto 0);
+         sdram_data_in : OUT  std_logic_vector(7 downto 0);
+         sdram_data_out : OUT  std_logic_vector(7 downto 0);
+         state : OUT  std_logic_vector(2 downto 0);
+         wr_rd : OUT  std_logic;
+         memstrb : OUT  std_logic;
+         rdy : OUT  std_logic;
+         cs : OUT  std_logic
         );
     END COMPONENT;
     
@@ -63,19 +64,20 @@ ARCHITECTURE behavior OF cache_test IS
    signal clk : std_logic := '0';
 
  	--Outputs
-   signal ADDR : std_logic_vector(15 downto 0);
-   signal DOUT : std_logic_vector(7 downto 0);
-   signal sAddra : std_logic_vector(7 downto 0);
-   signal sDina : std_logic_vector(7 downto 0);
-   signal sDouta : std_logic_vector(7 downto 0);
-   signal sD_Addra : std_logic_vector(15 downto 0);
-   signal sD_Dina : std_logic_vector(7 downto 0);
-   signal sD_Douta : std_logic_vector(7 downto 0);
-   signal cacheAddr : std_logic_vector(7 downto 0);
-   signal WR_RD : std_logic;
-   signal MEMSTRB : std_logic;
-   signal RDY : std_logic;
-   signal CS : std_logic;
+   signal addr : std_logic_vector(15 downto 0);
+   signal data_out : std_logic_vector(7 downto 0);
+   signal sram_address : std_logic_vector(7 downto 0);
+   signal cpu_out : std_logic_vector(7 downto 0);
+   signal sram_data_in : std_logic_vector(7 downto 0);
+   signal sram_data_out : std_logic_vector(7 downto 0);
+   signal sdram_address : std_logic_vector(15 downto 0);
+   signal sdram_data_in : std_logic_vector(7 downto 0);
+   signal sdram_data_out : std_logic_vector(7 downto 0);
+   signal state : std_logic_vector(2 downto 0);
+   signal wr_rd : std_logic;
+   signal memstrb : std_logic;
+   signal rdy : std_logic;
+   signal cs : std_logic;
 
    -- Clock period definitions
    constant clk_period : time := 10 ns;
@@ -85,19 +87,20 @@ BEGIN
 	-- Instantiate the Unit Under Test (UUT)
    uut: CacheController PORT MAP (
           clk => clk,
-          ADDR => ADDR,
-          DOUT => DOUT,
-          sAddra => sAddra,
-          sDina => sDina,
-          sDouta => sDouta,
-          sD_Addra => sD_Addra,
-          sD_Dina => sD_Dina,
-          sD_Douta => sD_Douta,
-          cacheAddr => cacheAddr,
-          WR_RD => WR_RD,
-          MEMSTRB => MEMSTRB,
-          RDY => RDY,
-          CS => CS
+          addr => addr,
+          data_out => data_out,
+			 cpu_out => cpu_out,
+          sram_address => sram_address,
+          sram_data_in => sram_data_in,
+          sram_data_out => sram_data_out,
+          sdram_address => sdram_address,
+          sdram_data_in => sdram_data_in,
+          sdram_data_out => sdram_data_out,
+          state => state,
+          wr_rd => wr_rd,
+          memstrb => memstrb,
+          rdy => rdy,
+          cs => cs
         );
 
    -- Clock process definitions
@@ -116,7 +119,7 @@ BEGIN
       -- hold reset state for 100 ns.
       wait for 100 ns;	
 
-      wait for clk_period*10;
+      wait for clk_period*300;
 
       -- insert stimulus here 
 

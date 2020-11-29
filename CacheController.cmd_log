@@ -318,3 +318,24 @@ ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc CacheController
 map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o CacheController_map.ncd CacheController.ngd CacheController.pcf 
 par -w -intstyle ise -ol high -t 1 CacheController_map.ncd CacheController.ncd CacheController.pcf 
 trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml CacheController.twx CacheController.ncd -o CacheController.twr CacheController.pcf -ucf CacheController.ucf 
+xst -intstyle ise -ifn "C:/Users/Yasamin/Documents/Classes/COE758/CacheController-master/CacheController.xst" -ofn "C:/Users/Yasamin/Documents/Classes/COE758/CacheController-master/CacheController.syr" 
+xst -intstyle ise -ifn "C:/Users/Yasamin/Documents/Classes/COE758/CacheController-master/CacheController.xst" -ofn "C:/Users/Yasamin/Documents/Classes/COE758/CacheController-master/CacheController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc CacheController.ucf -p xc3s500e-fg320-5 CacheController.ngc CacheController.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o CacheController_map.ncd CacheController.ngd CacheController.pcf 
+par -w -intstyle ise -ol high -t 1 CacheController_map.ncd CacheController.ncd CacheController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml CacheController.twx CacheController.ncd -o CacheController.twr CacheController.pcf -ucf CacheController.ucf 
+xst -intstyle ise -ifn "C:/Users/Yasamin/Documents/Classes/COE758/CacheController-master/CacheController.xst" -ofn "C:/Users/Yasamin/Documents/Classes/COE758/CacheController-master/CacheController.syr" 
+xst -intstyle ise -ifn "C:/Users/Yasamin/Documents/Classes/COE758/CacheController-master/CacheController.xst" -ofn "C:/Users/Yasamin/Documents/Classes/COE758/CacheController-master/CacheController.syr" 
+xst -intstyle ise -ifn "C:/Users/Yasamin/Documents/Classes/COE758/CacheController-master/CacheController.xst" -ofn "C:/Users/Yasamin/Documents/Classes/COE758/CacheController-master/CacheController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc CacheController.ucf -p xc3s500e-fg320-5 CacheController.ngc CacheController.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o CacheController_map.ncd CacheController.ngd CacheController.pcf 
+par -w -intstyle ise -ol high -t 1 CacheController_map.ncd CacheController.ncd CacheController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml CacheController.twx CacheController.ncd -o CacheController.twr CacheController.pcf -ucf CacheController.ucf 
+xst -intstyle ise -ifn "C:/Users/Yasamin/Documents/Classes/COE758/CacheController-master/CacheController.xst" -ofn "C:/Users/Yasamin/Documents/Classes/COE758/CacheController-master/CacheController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc CacheController.ucf -p xc3s500e-fg320-5 CacheController.ngc CacheController.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o CacheController_map.ncd CacheController.ngd CacheController.pcf 
+par -w -intstyle ise -ol high -t 1 CacheController_map.ncd CacheController.ncd CacheController.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml CacheController.twx CacheController.ncd -o CacheController.twr CacheController.pcf -ucf CacheController.ucf 
+xst -intstyle ise -ifn "C:/Users/Yasamin/Documents/Classes/COE758/CacheController-master/CacheController.xst" -ofn "C:/Users/Yasamin/Documents/Classes/COE758/CacheController-master/CacheController.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc CacheController.ucf -p xc3s500e-fg320-5 CacheController.ngc CacheController.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o CacheController_map.ncd CacheController.ngd CacheController.pcf 

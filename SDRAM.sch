@@ -15,13 +15,11 @@
         <line x2="2548" y1="608" y2="608" x1="2240" />
         <text style="fontsize:100;fontname:Arial" x="672" y="1472">clk</text>
         <line x2="1152" y1="1488" y2="1488" x1="844" />
-        <text style="fontsize:160;fontname:Arial" x="712" y="356">CacheController</text>
         <line x2="2552" y1="1352" y2="1352" x1="2244" />
         <line x2="1156" y1="772" y2="772" x1="848" />
         <line x2="1152" y1="1232" y2="1232" x1="844" />
         <rect width="1088" x="1152" y="448" height="1212" />
         <text style="fontsize:80;fontname:Arial" x="2612" y="604">SDRAM_ADDR [15..0]</text>
-        <text style="fontsize:80;fontname:Arial" x="128" y="540">CPU_ADDR [15..0]</text>
         <text style="fontsize:100;fontname:Arial" x="180" y="764">CPU_WR_RD</text>
         <text style="fontsize:100;fontname:Arial" x="640" y="1232">CS</text>
         <text style="fontsize:100;fontname:Arial" x="2600" y="1004">SDRAM_WR_RD</text>
@@ -30,5 +28,7 @@
         <text style="fontsize:100;fontname:Arial" x="2608" y="1524">SRAM_WEN</text>
         <text style="fontsize:100;fontname:Arial" x="2648" y="1188">SDRAM_MSTRB</text>
         <line x2="2544" y1="1168" y2="1168" x1="2236" />
+        <text style="fontsize:160;fontname:Arial" x="1152" y="284">CacheController</text>
+        <text style="fontsize:80;fontname:Arial" x="360" y="496">ADDR [15..0]</text>
     </sheet>
 </drawing>

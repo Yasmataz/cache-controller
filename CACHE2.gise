@@ -63,6 +63,13 @@
     <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="CacheController_usage.xml"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="CacheController_vhdl.prj"/>
     <file xil_pn:fileType="FILE_XRPT" xil_pn:name="CacheController_xst.xrpt"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_VHDL" xil_pn:name="SDRAM.vhf"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="SDRAMController.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="SDRAMController.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="SDRAMController.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="SDRAMController_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="SDRAMController_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="SDRAMController_isim_beh.wdb"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="TEST_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="TEST_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="TEST_isim_beh.wdb"/>
@@ -83,10 +90,11 @@
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="cache_controller_summary.html"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="cache_controller_vhdl.prj"/>
     <file xil_pn:fileType="FILE_XRPT" xil_pn:name="cache_controller_xst.xrpt"/>
-    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="cache_test_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="cache_stx_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="cache_test_isim_beh.exe"/>
-    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="cache_test_isim_beh.wdb"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="cache_test_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="cpu_test_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="cpu_test_stx_beh.prj"/>
     <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
     <file xil_pn:fileType="FILE_LOG" xil_pn:name="ipcore_dir/coregen.log"/>
     <file xil_pn:fileType="FILE_USERDOC" xil_pn:name="ipcore_dir/icon_readme.txt"/>
@@ -96,6 +104,7 @@
     <file xil_pn:fileType="FILE_USERDOC" xil_pn:name="ipcore_dir/ila_readme.txt"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
     <file xil_pn:fileType="FILE_LOG" xil_pn:name="webtalk.log"/>
     <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
@@ -108,22 +117,24 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1604033091" xil_pn:in_ck="2190608207933280311" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1604033091">
+    <transform xil_pn:end_ts="1604790698" xil_pn:in_ck="-7072602082030327906" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1604790698">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="CPU_gen.vhd"/>
       <outfile xil_pn:name="CacheController.vhd"/>
       <outfile xil_pn:name="SDRAMController.vhd"/>
-      <outfile xil_pn:name="TEST.vhd"/>
       <outfile xil_pn:name="cache_test.vhd"/>
+      <outfile xil_pn:name="cpu_test.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1604033096" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-2591182214589379479" xil_pn:start_ts="1604033096">
+    <transform xil_pn:end_ts="1604790698" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-5381094501673724834" xil_pn:start_ts="1604790698">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1604033098" xil_pn:in_ck="119738506708067" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="962463824735185579" xil_pn:start_ts="1604033096">
+    <transform xil_pn:end_ts="1604790700" xil_pn:in_ck="1951008529688808664" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-2553313765120029216" xil_pn:start_ts="1604790698">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <outfile xil_pn:name="SDRAM.vhf"/>
     </transform>
     <transform xil_pn:end_ts="1603315950" xil_pn:in_ck="3625788650258337959" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="1999009710302855460" xil_pn:start_ts="1603315949">
       <status xil_pn:value="SuccessfullyRun"/>
@@ -135,32 +146,39 @@
       <outfile xil_pn:name="ipcore_dir/ila.ngc"/>
       <outfile xil_pn:name="ipcore_dir/ila.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1604033098" xil_pn:in_ck="-633525206328852698" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1604033098">
+    <transform xil_pn:end_ts="1604790700" xil_pn:in_ck="-2610226214771962841" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1604790700">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="CPU_gen.vhd"/>
       <outfile xil_pn:name="CacheController.vhd"/>
+      <outfile xil_pn:name="SDRAM.vhf"/>
       <outfile xil_pn:name="SDRAMController.vhd"/>
-      <outfile xil_pn:name="TEST.vhd"/>
       <outfile xil_pn:name="cache_test.vhd"/>
-      <outfile xil_pn:name="ipcore_dir/SRAM.vhd"/>
-      <outfile xil_pn:name="ipcore_dir/icon.vhd"/>
-      <outfile xil_pn:name="ipcore_dir/ila.vhd"/>
+      <outfile xil_pn:name="cpu_test.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1604033105" xil_pn:in_ck="-633525206328852698" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-3612311725234597868" xil_pn:start_ts="1604033098">
+    <transform xil_pn:end_ts="1604790706" xil_pn:in_ck="-2230600991301596394" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="6609910375794829457" xil_pn:start_ts="1604790700">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="cache_test_beh.prj"/>
-      <outfile xil_pn:name="cache_test_isim_beh.exe"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="SDRAMController_beh.prj"/>
+      <outfile xil_pn:name="SDRAMController_isim_beh.exe"/>
       <outfile xil_pn:name="fuse.log"/>
       <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
       <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1604033105" xil_pn:in_ck="-4615439648196581768" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-2845249772443557823" xil_pn:start_ts="1604033105">
+    <transform xil_pn:end_ts="1604790706" xil_pn:in_ck="2201556481967607256" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="4946203090143092222" xil_pn:start_ts="1604790706">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="cache_test_isim_beh.wdb"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="SDRAMController_isim_beh.wdb"/>
       <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
     </transform>
     <transform xil_pn:end_ts="1509120435" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1509120435">
       <status xil_pn:value="SuccessfullyRun"/>
@@ -169,6 +187,9 @@
     <transform xil_pn:end_ts="1509464718" xil_pn:in_ck="119738506708067" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-1189995693159593987" xil_pn:start_ts="1509464717">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputAdded"/>
+      <status xil_pn:value="InputChanged"/>
     </transform>
     <transform xil_pn:end_ts="1509120435" xil_pn:in_ck="3625788650258337959" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="1999009710302855460" xil_pn:start_ts="1509120435">
       <status xil_pn:value="SuccessfullyRun"/>
@@ -191,16 +212,21 @@
     <transform xil_pn:end_ts="1509120435" xil_pn:in_ck="-3651943477941962220" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="-3893270297158069842" xil_pn:start_ts="1509120435">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
     </transform>
     <transform xil_pn:end_ts="1509120435" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-1612449581845862290" xil_pn:start_ts="1509120435">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
     </transform>
-    <transform xil_pn:end_ts="1604032811" xil_pn:in_ck="-1667154887171984365" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="9126214010273583296" xil_pn:start_ts="1604032771">
+    <transform xil_pn:end_ts="1604073249" xil_pn:in_ck="-1667154887171984365" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="9126214010273583296" xil_pn:start_ts="1604073212">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name=".lso"/>
       <outfile xil_pn:name="CacheController.lso"/>
@@ -219,73 +245,69 @@
     <transform xil_pn:end_ts="1509120461" xil_pn:in_ck="3028015038711494500" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-4064169791420154032" xil_pn:start_ts="1509120461">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
     </transform>
-    <transform xil_pn:end_ts="1604032818" xil_pn:in_ck="-2955697358611944077" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-6327681298543584143" xil_pn:start_ts="1604032811">
+    <transform xil_pn:end_ts="1604073256" xil_pn:in_ck="-2955697358611944077" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-6327681298543584143" xil_pn:start_ts="1604073249">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="CacheController.bld"/>
       <outfile xil_pn:name="CacheController.ngd"/>
       <outfile xil_pn:name="CacheController_ngdbuild.xrpt"/>
       <outfile xil_pn:name="_ngo"/>
       <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
     </transform>
-    <transform xil_pn:end_ts="1604032836" xil_pn:in_ck="651422604886617891" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="-1309755933173654900" xil_pn:start_ts="1604032818">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="WarningsGenerated"/>
+    <transform xil_pn:end_ts="1604073261" xil_pn:in_ck="651422604886617891" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="-1309755933173654900" xil_pn:start_ts="1604073256">
+      <status xil_pn:value="FailedRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="CacheController.pcf"/>
       <outfile xil_pn:name="CacheController_map.map"/>
       <outfile xil_pn:name="CacheController_map.mrp"/>
-      <outfile xil_pn:name="CacheController_map.ncd"/>
       <outfile xil_pn:name="CacheController_map.ngm"/>
       <outfile xil_pn:name="CacheController_map.xrpt"/>
       <outfile xil_pn:name="CacheController_summary.xml"/>
       <outfile xil_pn:name="CacheController_usage.xml"/>
       <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
     </transform>
-    <transform xil_pn:end_ts="1604032858" xil_pn:in_ck="-2789235383245199460" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="-5563652517805085498" xil_pn:start_ts="1604032836">
+    <transform xil_pn:end_ts="1604040527" xil_pn:in_ck="-2789235383245199460" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="-5563652517805085498" xil_pn:start_ts="1604040505">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
-      <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="CacheController.ncd"/>
-      <outfile xil_pn:name="CacheController.pad"/>
-      <outfile xil_pn:name="CacheController.par"/>
-      <outfile xil_pn:name="CacheController.ptwx"/>
-      <outfile xil_pn:name="CacheController.unroutes"/>
-      <outfile xil_pn:name="CacheController.xpi"/>
-      <outfile xil_pn:name="CacheController_pad.csv"/>
-      <outfile xil_pn:name="CacheController_pad.txt"/>
-      <outfile xil_pn:name="CacheController_par.xrpt"/>
-      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+      <status xil_pn:value="NotReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputRemoved"/>
+      <status xil_pn:value="OutputRemoved"/>
     </transform>
     <transform xil_pn:end_ts="1509464816" xil_pn:in_ck="3028015038711486875" xil_pn:name="TRANEXT_bitFile_spartan3e" xil_pn:prop_ck="287829442711806529" xil_pn:start_ts="1509464797">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="InputRemoved"/>
       <status xil_pn:value="OutputChanged"/>
-      <outfile xil_pn:name="CacheController.bgn"/>
-      <outfile xil_pn:name="CacheController.bit"/>
-      <outfile xil_pn:name="CacheController.drc"/>
-      <outfile xil_pn:name="CacheController.ut"/>
-      <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
-      <outfile xil_pn:name="webtalk.log"/>
-      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <status xil_pn:value="OutputRemoved"/>
     </transform>
     <transform xil_pn:end_ts="1509467565" xil_pn:in_ck="3028015038711474021" xil_pn:name="TRAN_analyzeDesignUsingChipscope" xil_pn:prop_ck="-6327681298543584143" xil_pn:start_ts="1509467564">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="InputRemoved"/>
     </transform>
-    <transform xil_pn:end_ts="1604032858" xil_pn:in_ck="-1303908541056596705" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416187" xil_pn:start_ts="1604032854">
+    <transform xil_pn:end_ts="1604040527" xil_pn:in_ck="-1303908541056596705" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416187" xil_pn:start_ts="1604040523">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="CacheController.twr"/>
-      <outfile xil_pn:name="CacheController.twx"/>
-      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputRemoved"/>
+      <status xil_pn:value="OutputRemoved"/>
     </transform>
   </transforms>
 

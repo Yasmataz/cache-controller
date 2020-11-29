@@ -1,0 +1,44 @@
+Release 13.4 - xst O.87xd (nt64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to C:/Users/Yasamin/Documents/Classes/COE758/CacheController-master/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.11 secs
+ 
+--> Parameter xsthdpdir set to C:/Users/Yasamin/Documents/Classes/COE758/CacheController-master/xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.12 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/Yasamin/Documents/Classes/COE758/CacheController-master/CPU_gen.vhd" in Library work.
+Architecture behavioral of Entity cpu_gen is up to date.
+Compiling vhdl file "C:/Users/Yasamin/Documents/Classes/COE758/CacheController-master/SDRAMController.vhd" in Library work.
+Entity <sdramcontroller> compiled.
+Entity <sdramcontroller> (Architecture <behavioral>) compiled.
+Compiling vhdl file "C:/Users/Yasamin/Documents/Classes/COE758/CacheController-master/ipcore_dir/SRAM.vhd" in Library work.
+Architecture sram_a of Entity sram is up to date.
+Compiling vhdl file "C:/Users/Yasamin/Documents/Classes/COE758/CacheController-master/ipcore_dir/icon.vhd" in Library work.
+Architecture icon_a of Entity icon is up to date.
+Compiling vhdl file "C:/Users/Yasamin/Documents/Classes/COE758/CacheController-master/CacheController.vhd" in Library work.
+Entity <cachecontroller> compiled.
+Entity <cachecontroller> (Architecture <behavioral>) compiled.
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.31 secs
+ 
+--> 
+
+Total memory usage is 4475768 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

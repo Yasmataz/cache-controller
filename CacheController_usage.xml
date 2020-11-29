@@ -4,8 +4,8 @@
      changes made to this file may result in unpredictable
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
-<DeviceUsageSummary rev="78">
-<DesignStatistics TimeStamp="Fri Oct 30 00:40:35 2020"><group name="NetStatistics">
+<DeviceUsageSummary rev="81">
+<DesignStatistics TimeStamp="Fri Oct 30 02:48:23 2020"><group name="NetStatistics">
 <item name="NumNets_Active" rev="77">
 <attrib name="value" value="2633"/></item>
 <item name="NumNets_Gnd" rev="77">
@@ -84,53 +84,53 @@
 <attrib name="value" value="339"/></item>
 </group>
 <group name="MiscellaneousStatistics">
-<item name="AGG_BONDED_IO" rev="78">
+<item name="AGG_BONDED_IO" rev="81">
 <attrib name="value" value="93"/></item>
-<item name="AGG_IO" rev="78">
+<item name="AGG_IO" rev="81">
 <attrib name="value" value="93"/></item>
-<item name="AGG_SLICE" rev="78">
-<attrib name="value" value="1341"/></item>
-<item name="NUM_4_INPUT_LUT" rev="78">
-<attrib name="value" value="2062"/></item>
-<item name="NUM_BONDED_IBUF" rev="78">
+<item name="AGG_SLICE" rev="81">
+<attrib name="value" value="1321"/></item>
+<item name="NUM_4_INPUT_LUT" rev="81">
+<attrib name="value" value="2032"/></item>
+<item name="NUM_BONDED_IBUF" rev="81">
 <attrib name="value" value="1"/></item>
-<item name="NUM_BONDED_IOB" rev="78">
+<item name="NUM_BONDED_IOB" rev="81">
 <attrib name="value" value="92"/></item>
-<item name="NUM_BSCAN" rev="78">
+<item name="NUM_BSCAN" rev="81">
 <attrib name="value" value="1"/></item>
-<item name="NUM_BUFGMUX" rev="78">
+<item name="NUM_BUFGMUX" rev="81">
 <attrib name="value" value="2"/></item>
-<item name="NUM_CARRY_SKIP" rev="78">
+<item name="NUM_CARRY_SKIP" rev="81">
 <attrib name="value" value="3"/></item>
-<item name="NUM_CYMUX" rev="78">
+<item name="NUM_CYMUX" rev="81">
 <attrib name="value" value="110"/></item>
-<item name="NUM_IOB_LATCH" rev="78">
+<item name="NUM_IOB_LATCH" rev="81">
 <attrib name="value" value="1"/></item>
-<item name="NUM_LUT_RT" rev="78">
+<item name="NUM_LUT_RT" rev="81">
 <attrib name="value" value="725"/></item>
-<item name="NUM_RAM16" rev="78">
+<item name="NUM_RAM16" rev="81">
 <attrib name="value" value="4"/></item>
-<item name="NUM_RAMB16" rev="78">
+<item name="NUM_RAMB16" rev="81">
 <attrib name="value" value="5"/></item>
-<item name="NUM_RPM" rev="78">
+<item name="NUM_RPM" rev="81">
 <attrib name="value" value="12"/></item>
-<item name="NUM_SHIFT" rev="78">
+<item name="NUM_SHIFT" rev="81">
 <attrib name="value" value="153"/></item>
-<item name="NUM_SLICEL" rev="78">
-<attrib name="value" value="1000"/></item>
-<item name="NUM_SLICEM" rev="78">
+<item name="NUM_SLICEL" rev="81">
+<attrib name="value" value="980"/></item>
+<item name="NUM_SLICEM" rev="81">
 <attrib name="value" value="341"/></item>
-<item name="NUM_SLICE_FF" rev="78">
-<attrib name="value" value="1016"/></item>
-<item name="NUM_SLICE_LATCH" rev="78">
+<item name="NUM_SLICE_FF" rev="81">
+<attrib name="value" value="1009"/></item>
+<item name="NUM_SLICE_LATCH" rev="81">
 <attrib name="value" value="3"/></item>
-<item name="NUM_XOR" rev="78">
+<item name="NUM_XOR" rev="81">
 <attrib name="value" value="91"/></item>
-<item name="Xilinx Core blk_mem_gen_v6_2, Xilinx CORE Generator 13.3" rev="78">
+<item name="Xilinx Core blk_mem_gen_v6_2, Xilinx CORE Generator 13.3" rev="81">
 <attrib name="value" value="1"/></item>
-<item name="Xilinx Core chipscope_icon_v1_06_a, Xilinx CORE Generator 13.3" rev="78">
+<item name="Xilinx Core chipscope_icon_v1_06_a, Xilinx CORE Generator 13.3" rev="81">
 <attrib name="value" value="1"/></item>
-<item name="Xilinx Core chipscope_ila_v1_05_a, Xilinx CORE Generator 13.3" rev="78">
+<item name="Xilinx Core chipscope_ila_v1_05_a, Xilinx CORE Generator 13.3" rev="81">
 <attrib name="value" value="1"/></item>
 </group>
 </DesignStatistics>
@@ -206,7 +206,7 @@
 <item name="CLKA" rev="77">
 <attrib name="CLKA_INV" value="0"/><attrib name="CLKA" value="5"/></item>
 <item name="CLKB" rev="77">
-<attrib name="CLKB" value="5"/><attrib name="CLKB_INV" value="0"/></item>
+<attrib name="CLKB_INV" value="0"/><attrib name="CLKB" value="5"/></item>
 <item name="ENA" rev="77">
 <attrib name="ENA_INV" value="0"/><attrib name="ENA" value="5"/></item>
 <item name="ENB" rev="77">
@@ -250,7 +250,7 @@
 </group>
 <group name="RAMB16_RAMB16B">
 <item name="CLKB" rev="77">
-<attrib name="CLKB" value="5"/><attrib name="CLKB_INV" value="0"/></item>
+<attrib name="CLKB_INV" value="0"/><attrib name="CLKB" value="5"/></item>
 <item name="ENB" rev="77">
 <attrib name="ENB_INV" value="0"/><attrib name="ENB" value="5"/></item>
 <item name="PORTB_ATTR" rev="77">

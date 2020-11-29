@@ -1,5 +1,5 @@
 //! **************************************************************************
-// Written by: Map O.87xd on Fri Oct 30 00:40:34 2020
+// Written by: Map O.87xd on Fri Oct 30 02:48:22 2020
 //! **************************************************************************
 
 SCHEMATIC START;
@@ -35,23 +35,24 @@ PIN
         = BEL
         "myILA/U0/I_YES_D.U_ILA/U_CAPSTOR/I_CASE1.I_NO_TB.I_RT1.U_RAM/G_BRAM[3].U_BRAM/ram_rt1_s1_s32_if.ram_rt1_s1_s32_i.B"
         PINNAME CLKB;
-TIMEGRP D_CLK = BEL "SDRAM_ADD_0" BEL "SDRAM_ADD_1" BEL "SDRAM_ADD_2" BEL
-        "Dbit_0" BEL "SDRAM_ADD_3" BEL "Dbit_2" BEL "SDRAM_ADD_4" BEL
-        "counter_0" BEL "counter_1" BEL "counter_2" BEL "counter_3" BEL
-        "counter_4" BEL "counter_5" BEL "counter_6" BEL "counter_7" BEL
-        "counter_8" BEL "counter_9" BEL "counter_10" BEL "counter_11" BEL
-        "counter_12" BEL "counter_13" BEL "counter_14" BEL "counter_15" BEL
-        "counter_16" BEL "counter_17" BEL "counter_18" BEL "counter_19" BEL
-        "counter_20" BEL "counter_21" BEL "counter_22" BEL "counter_23" BEL
-        "counter_24" BEL "counter_25" BEL "counter_26" BEL "counter_27" BEL
-        "counter_28" BEL "counter_29" BEL "counter_30" BEL "counter_31" BEL
-        "state_2" BEL "sdoffset_0" BEL "sdoffset_1" BEL "sdoffset_2" BEL
-        "sdoffset_3" BEL "sdoffset_4" BEL "SDRAM_W_R" BEL "index_1" BEL
-        "cpu_tag_0" BEL "cpu_tag_1" BEL "cpu_tag_2" BEL "SDRAM_Din_0" BEL
-        "SDRAM_Din_1" BEL "SDRAM_Din_2" BEL "SDRAM_Din_3" BEL "SDRAM_Din_4"
-        BEL "SDRAM_Din_5" BEL "SDRAM_Din_6" BEL "SDRAM_Din_7" BEL "TAGWen" BEL
-        "CPU_Din_0" BEL "CPU_Din_1" BEL "CPU_Din_2" BEL "CPU_Din_3" BEL
-        "CPU_Din_4" BEL "CPU_Din_5" BEL "CPU_Din_6" BEL "CPU_Din_7" BEL
+TIMEGRP D_CLK = BEL "sdram_addr_0" BEL "sdram_addr_1" BEL "sdram_offset_0" BEL
+        "sdram_offset_1" BEL "sdram_offset_2" BEL "sdram_offset_3" BEL
+        "sdram_offset_4" BEL "sdram_addr_2" BEL "sdram_addr_3" BEL
+        "sdram_addr_4" BEL "counter_0" BEL "counter_1" BEL "counter_2" BEL
+        "counter_3" BEL "counter_4" BEL "counter_5" BEL "counter_6" BEL
+        "counter_7" BEL "counter_8" BEL "counter_9" BEL "counter_10" BEL
+        "counter_11" BEL "counter_12" BEL "counter_13" BEL "counter_14" BEL
+        "counter_15" BEL "counter_16" BEL "counter_17" BEL "counter_18" BEL
+        "counter_19" BEL "counter_20" BEL "counter_21" BEL "counter_22" BEL
+        "counter_23" BEL "counter_24" BEL "counter_25" BEL "counter_26" BEL
+        "counter_27" BEL "counter_28" BEL "counter_29" BEL "counter_30" BEL
+        "counter_31" BEL "sdram_wr" BEL "sram_addr_0" BEL "sram_addr_3" BEL
+        "Vbit_0" BEL "sram_addr_4" BEL "Vbit_2" BEL "mstrb" BEL "index_1" BEL
+        "sdram_Din_0" BEL "sdram_Din_1" BEL "sdram_Din_2" BEL "sdram_Din_3"
+        BEL "sdram_Din_4" BEL "sdram_Din_5" BEL "sdram_Din_6" BEL
+        "sdram_Din_7" BEL "cpu_tag_0" BEL "cpu_tag_1" BEL "cpu_tag_2" BEL
+        "cpu_Din_0" BEL "cpu_Din_1" BEL "cpu_Din_2" BEL "cpu_Din_3" BEL
+        "cpu_Din_4" BEL "cpu_Din_5" BEL "cpu_Din_6" BEL "cpu_Din_7" BEL
         "Mram_memtag2" BEL "Mram_memtag1" BEL "Mram_memtag3" BEL
         "Mram_memtag4" PIN
         "mySRAM/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s3_noinit.ram/spram.ram.A_pins<10>"
@@ -664,7 +665,8 @@ TIMEGRP D_CLK = BEL "SDRAM_ADD_0" BEL "SDRAM_ADD_1" BEL "SDRAM_ADD_2" BEL
         "myILA/U0/I_YES_D.U_ILA/U_CAPSTOR/I_CASE1.I_NO_TB.I_RT1.U_RAM/G_BRAM[2].U_BRAM/ram_rt1_s1_s32_if.ram_rt1_s1_s32_i.B_pins<10>"
         PIN
         "myILA/U0/I_YES_D.U_ILA/U_CAPSTOR/I_CASE1.I_NO_TB.I_RT1.U_RAM/G_BRAM[3].U_BRAM/ram_rt1_s1_s32_if.ram_rt1_s1_s32_i.B_pins<10>"
-        BEL "state_current_FSM_FFd5" BEL "myCPU_gen/st1_FSM_FFd1" BEL
+        BEL "current_state_FSM_FFd2" BEL "current_state_FSM_FFd4" BEL
+        "current_state_FSM_FFd5" BEL "myCPU_gen/st1_FSM_FFd1" BEL
         "myCPU_gen/st1_FSM_FFd2" BEL "myCPU_gen/st1_FSM_FFd3" BEL
         "myCPU_gen/st1_FSM_FFd4" BEL "myCPU_gen/patCtrl_2" BEL
         "myCPU_gen/patCtrl_1" BEL "myCPU_gen/patCtrl_0" BEL "myCPU_gen/rReg2"
@@ -927,16 +929,13 @@ TIMEGRP D_CLK = BEL "SDRAM_ADD_0" BEL "SDRAM_ADD_1" BEL "SDRAM_ADD_2" BEL
         "SDRAM/RAM_SIG<0>_11_6" BEL "SDRAM/RAM_SIG<0>_11_5" BEL
         "SDRAM/RAM_SIG<0>_11_4" BEL "SDRAM/RAM_SIG<0>_11_3" BEL
         "SDRAM/RAM_SIG<0>_11_2" BEL "SDRAM/RAM_SIG<0>_11_1" BEL
-        "SDRAM/RAM_SIG<0>_11_0" BEL "CPU_RDY" BEL "sADD_0" BEL "sADD_1" BEL
-        "sADD_2" BEL "sADD_3" BEL "sADD_4" BEL "sADD_6" BEL "SDRAM_MSTRB" BEL
-        "sDin_0" BEL "sDin_1" BEL "sDin_2" BEL "sDin_3" BEL "sDin_4" BEL
-        "sDin_5" BEL "sDin_6" BEL "sDin_7" BEL "state_0" BEL "state_1" BEL
-        "Vbit_0" BEL "Vbit_2" BEL "sWen_0" BEL "state_current_FSM_FFd2" BEL
-        "state_current_FSM_FFd4" BEL "myCPU_gen/st1_FSM_FFd5" BEL
-        "myCPU_gen/st1_FSM_FFd6" BEL "state_current_FSM_FFd3" BEL
-        "state_current_FSM_FFd1" BEL "myCPU_gen/patCtrl_2_1" BEL
-        "myCPU_gen/patCtrl_1_1" BEL "myCPU_gen/patCtrl_0_1" BEL "index_1_1"
-        BEL "index_1_2";
+        "SDRAM/RAM_SIG<0>_11_0" BEL "sram_wen_0" BEL "Dbit_0" BEL "Dbit_2" BEL
+        "sram_Din_0" BEL "sram_Din_1" BEL "sram_Din_2" BEL "sram_Din_3" BEL
+        "sram_Din_4" BEL "sram_Din_5" BEL "sram_Din_6" BEL "sram_Din_7" BEL
+        "sram_addr_1" BEL "sram_addr_2" BEL "cpu_rdy" BEL "sram_addr_6" BEL
+        "current_state_FSM_FFd3" BEL "current_state_FSM_FFd1" BEL
+        "myCPU_gen/st1_FSM_FFd5" BEL "myCPU_gen/st1_FSM_FFd6" BEL
+        "myCPU_gen/patCtrl_2_1" BEL "index_1_1";
 TIMEGRP U_CLK = BEL "myIcon/U0/U_ICON/U_iDATA_CMD";
 TIMEGRP D2_CLK = BEL "myILA/U0/I_YES_D.U_ILA/U_STAT/U_DIRTY_LDC";
 TIMEGRP "FFS" = FFS(*);

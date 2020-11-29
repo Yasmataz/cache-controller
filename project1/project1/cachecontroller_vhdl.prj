@@ -1,0 +1,8 @@
+vhdl work "/home/student2/mzizovsk/coe758/project1/project1/tag_register_file.vhd"
+vhdl work "/home/student2/mzizovsk/coe758/project1/project1/sram.vhd"
+vhdl work "/home/student2/mzizovsk/coe758/project1/project1/SDRAMController.vhd"
+vhdl work "/home/student2/mzizovsk/coe758/project1/project1/mux_2to1.vhd"
+vhdl work "/home/student2/mzizovsk/coe758/project1/project1/CPU_gen.vhd"
+vhdl work "/home/student2/mzizovsk/coe758/project1/project1/comparator.vhd"
+vhdl work "/home/student2/mzizovsk/coe758/project1/project1/bit_register_file.vhd"
+vhdl work "/home/student2/mzizovsk/coe758/project1/project1/cachecontroller.vhd"

@@ -1,0 +1,25 @@
+# Output products list for <sdram>
+blk_mem_gen_ds512.pdf
+blk_mem_gen_v6_2_readme.txt
+sdram.asy
+sdram.gise
+sdram.ngc
+sdram.sym
+sdram.v
+sdram.veo
+sdram.xco
+sdram.xise
+sdram_flist.txt
+sdram_ste/example_design/bmg_wrapper.vhd
+sdram_ste/example_design/sdram_top.ucf
+sdram_ste/example_design/sdram_top.vhd
+sdram_ste/example_design/sdram_top.xdc
+sdram_ste/implement/implement.bat
+sdram_ste/implement/implement.sh
+sdram_ste/implement/planAhead_rdn.bat
+sdram_ste/implement/planAhead_rdn.sh
+sdram_ste/implement/planAhead_rdn.tcl
+sdram_ste/implement/xst.prj
+sdram_ste/implement/xst.scr
+sdram_xmdf.tcl
+summary.log

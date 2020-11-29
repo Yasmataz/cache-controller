@@ -1,0 +1,15 @@
+AR comparator comp /home/student2/mzizovsk/coe758/project1/project1/comparator.vhd sub00/vhpl09 1539189265
+EN tag_register_file NULL /home/student2/mzizovsk/coe758/project1/project1/tag_register_file.vhd sub00/vhpl10 1539189266
+EN cachecontroller NULL /home/student2/mzizovsk/coe758/project1/project1/cachecontroller.vhd sub00/vhpl14 1539189270
+EN sdramcontroller NULL /home/student2/mzizovsk/coe758/project1/project1/SDRAMController.vhd sub00/vhpl02 1539189258
+EN cpu_gen NULL /home/student2/mzizovsk/coe758/project1/project1/CPU_gen.vhd sub00/vhpl00 1539189256
+EN sram NULL /home/student2/mzizovsk/coe758/project1/project1/sram.vhd sub00/vhpl04 1539189260
+AR tag_register_file behavioral /home/student2/mzizovsk/coe758/project1/project1/tag_register_file.vhd sub00/vhpl11 1539189267
+AR cpu_gen behavioral /home/student2/mzizovsk/coe758/project1/project1/CPU_gen.vhd sub00/vhpl01 1539189257
+AR sdramcontroller behavioral /home/student2/mzizovsk/coe758/project1/project1/SDRAMController.vhd sub00/vhpl03 1539189259
+AR mux_2to1 behavioral /home/student2/mzizovsk/coe758/project1/project1/mux_2to1.vhd sub00/vhpl07 1539189263
+EN mux_2to1 NULL /home/student2/mzizovsk/coe758/project1/project1/mux_2to1.vhd sub00/vhpl06 1539189262
+AR bit_register_file behavioral /home/student2/mzizovsk/coe758/project1/project1/bit_register_file.vhd sub00/vhpl13 1539189269
+EN comparator NULL /home/student2/mzizovsk/coe758/project1/project1/comparator.vhd sub00/vhpl08 1539189264
+EN bit_register_file NULL /home/student2/mzizovsk/coe758/project1/project1/bit_register_file.vhd sub00/vhpl12 1539189268
+AR sram behavioral /home/student2/mzizovsk/coe758/project1/project1/sram.vhd sub00/vhpl05 1539189261

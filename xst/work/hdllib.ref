@@ -1,0 +1,14 @@
+AR ila ila_a C:/Users/Yasamin/Documents/Classes/COE758/CacheController-master/ipcore_dir/ila.vhd sub00/vhpl13 1604032783
+EN cachecontroller NULL C:/Users/Yasamin/Documents/Classes/COE758/CacheController-master/CacheController.vhd sub00/vhpl04 1604032784
+AR icon icon_a C:/Users/Yasamin/Documents/Classes/COE758/CacheController-master/ipcore_dir/icon.vhd sub00/vhpl09 1604032781
+EN sdramcontroller NULL C:/Users/Yasamin/Documents/Classes/COE758/CacheController-master/SDRAMController.vhd sub00/vhpl02 1604032776
+EN icon NULL C:/Users/Yasamin/Documents/Classes/COE758/CacheController-master/ipcore_dir/icon.vhd sub00/vhpl08 1604032780
+EN cpu_gen NULL C:/Users/Yasamin/Documents/Classes/COE758/CacheController-master/CPU_gen.vhd sub00/vhpl00 1604032774
+EN sram NULL C:/Users/Yasamin/Documents/Classes/COE758/CacheController-master/ipcore_dir/SRAM.vhd sub00/vhpl06 1604032778
+AR sram sram_a C:/Users/Yasamin/Documents/Classes/COE758/CacheController-master/ipcore_dir/SRAM.vhd sub00/vhpl07 1604032779
+AR cachecontroller behavioral C:/Users/Yasamin/Documents/Classes/COE758/CacheController-master/CacheController.vhd sub00/vhpl05 1604032785
+AR cpu_gen behavioral C:/Users/Yasamin/Documents/Classes/COE758/CacheController-master/CPU_gen.vhd sub00/vhpl01 1604032775
+EN vio NULL "/media/0AE8-77F0/Ryerson EE Account/COE758/CacheProject/CacheControllerProject/CACHE2/ipcore_dir/vio.vhd" sub00/vhpl10 1446418507
+AR sdramcontroller behavioral C:/Users/Yasamin/Documents/Classes/COE758/CacheController-master/SDRAMController.vhd sub00/vhpl03 1604032777
+AR vio vio_a "/media/0AE8-77F0/Ryerson EE Account/COE758/CacheProject/CacheControllerProject/CACHE2/ipcore_dir/vio.vhd" sub00/vhpl11 1446418508
+EN ila NULL C:/Users/Yasamin/Documents/Classes/COE758/CacheController-master/ipcore_dir/ila.vhd sub00/vhpl12 1604032782

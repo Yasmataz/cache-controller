@@ -1,0 +1,59 @@
+V3 31
+FL /home/student2/mzizovsk/coe758/project1/project1/bit_register_file.vhd 2018/10/10.12:22:28 O.76xd
+EN work/bit_register_file 1539189268 \
+      FL /home/student2/mzizovsk/coe758/project1/project1/bit_register_file.vhd \
+      PB ieee/std_logic_1164 1317710503 PB ieee/STD_LOGIC_UNSIGNED 1317710506 \
+      PB ieee/NUMERIC_STD 1317710508
+AR work/bit_register_file/Behavioral 1539189269 \
+      FL /home/student2/mzizovsk/coe758/project1/project1/bit_register_file.vhd \
+      EN work/bit_register_file 1539189268
+FL /home/student2/mzizovsk/coe758/project1/project1/cachecontroller.vhd 2018/10/10.12:19:42 O.76xd
+EN work/cachecontroller 0 \
+      FL /home/student2/mzizovsk/coe758/project1/project1/cachecontroller.vhd \
+      PB ieee/std_logic_1164 1317710503
+AR work/cachecontroller/Behavioral 0 \
+      FL /home/student2/mzizovsk/coe758/project1/project1/cachecontroller.vhd \
+      EN work/cachecontroller 0 CP CPU_gen CP SDRAMController CP sram CP mux_2to1 \
+      CP comparator CP tag_register_file CP bit_register_file
+FL /home/student2/mzizovsk/coe758/project1/project1/comparator.vhd 2018/10/10.12:21:35 O.76xd
+EN work/comparator 1539189264 \
+      FL /home/student2/mzizovsk/coe758/project1/project1/comparator.vhd \
+      PB ieee/std_logic_1164 1317710503
+AR work/comparator/comp 1539189265 \
+      FL /home/student2/mzizovsk/coe758/project1/project1/comparator.vhd \
+      EN work/comparator 1539189264
+FL /home/student2/mzizovsk/coe758/project1/project1/CPU_gen.vhd 2018/10/10.12:34:04 O.76xd
+EN work/CPU_gen 1539189256 \
+      FL /home/student2/mzizovsk/coe758/project1/project1/CPU_gen.vhd \
+      PB ieee/std_logic_1164 1317710503 PB ieee/STD_LOGIC_UNSIGNED 1317710506
+AR work/CPU_gen/Behavioral 1539189257 \
+      FL /home/student2/mzizovsk/coe758/project1/project1/CPU_gen.vhd \
+      EN work/CPU_gen 1539189256
+FL /home/student2/mzizovsk/coe758/project1/project1/mux_2to1.vhd 2018/10/10.12:21:35 O.76xd
+EN work/mux_2to1 1539189262 \
+      FL /home/student2/mzizovsk/coe758/project1/project1/mux_2to1.vhd \
+      PB ieee/std_logic_1164 1317710503
+AR work/mux_2to1/Behavioral 1539189263 \
+      FL /home/student2/mzizovsk/coe758/project1/project1/mux_2to1.vhd \
+      EN work/mux_2to1 1539189262
+FL /home/student2/mzizovsk/coe758/project1/project1/SDRAMController.vhd 2018/10/10.12:28:10 O.76xd
+EN work/SDRAMController 1539189258 \
+      FL /home/student2/mzizovsk/coe758/project1/project1/SDRAMController.vhd \
+      PB ieee/std_logic_1164 1317710503 PB ieee/NUMERIC_STD 1317710508
+AR work/SDRAMController/Behavioral 1539189259 \
+      FL /home/student2/mzizovsk/coe758/project1/project1/SDRAMController.vhd \
+      EN work/SDRAMController 1539189258
+FL /home/student2/mzizovsk/coe758/project1/project1/sram.vhd 2018/10/10.12:29:35 O.76xd
+EN work/sram 1539189260 \
+      FL /home/student2/mzizovsk/coe758/project1/project1/sram.vhd \
+      PB ieee/std_logic_1164 1317710503
+AR work/sram/Behavioral 1539189261 \
+      FL /home/student2/mzizovsk/coe758/project1/project1/sram.vhd EN work/sram 1539189260
+FL /home/student2/mzizovsk/coe758/project1/project1/tag_register_file.vhd 2018/10/10.12:23:27 O.76xd
+EN work/tag_register_file 1539189266 \
+      FL /home/student2/mzizovsk/coe758/project1/project1/tag_register_file.vhd \
+      PB ieee/std_logic_1164 1317710503 PB ieee/STD_LOGIC_UNSIGNED 1317710506 \
+      PB ieee/NUMERIC_STD 1317710508
+AR work/tag_register_file/Behavioral 1539189267 \
+      FL /home/student2/mzizovsk/coe758/project1/project1/tag_register_file.vhd \
+      EN work/tag_register_file 1539189266

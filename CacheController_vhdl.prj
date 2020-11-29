@@ -1,0 +1,6 @@
+vhdl work "C:\Users\Yasamin\Documents\Classes\COE758\CacheController-master\ipcore_dir\SRAM.vhd"
+vhdl work "C:\Users\Yasamin\Documents\Classes\COE758\CacheController-master\SDRAMController.vhd"
+vhdl work "C:\Users\Yasamin\Documents\Classes\COE758\CacheController-master\ipcore_dir\ila.vhd"
+vhdl work "C:\Users\Yasamin\Documents\Classes\COE758\CacheController-master\ipcore_dir\icon.vhd"
+vhdl work "C:\Users\Yasamin\Documents\Classes\COE758\CacheController-master\CPU_gen.vhd"
+vhdl work "C:\Users\Yasamin\Documents\Classes\COE758\CacheController-master\CacheController.vhd"

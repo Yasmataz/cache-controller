@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="error" file="HDLParsers" num="850" delta="new" >&quot;<arg fmt="%s" index="1">/home/student2/mzizovsk/coe758/project1/project1/cachecontroller.vhd</arg>&quot; Line <arg fmt="%d" index="2">187</arg>. Formal port <arg fmt="%s" index="3">clka</arg> does not exist in <arg fmt="%s" index="4">Component &apos;SDRAMController&apos;</arg>.
+</msg>
+
+<msg type="error" file="HDLParsers" num="850" delta="new" >&quot;<arg fmt="%s" index="1">/home/student2/mzizovsk/coe758/project1/project1/cachecontroller.vhd</arg>&quot; Line <arg fmt="%d" index="2">199</arg>. Formal port <arg fmt="%s" index="3">clka</arg> does not exist in <arg fmt="%s" index="4">Component &apos;sram&apos;</arg>.
+</msg>
+
+<msg type="error" file="HDLParsers" num="850" delta="new" >&quot;<arg fmt="%s" index="1">/home/student2/mzizovsk/coe758/project1/project1/cachecontroller.vhd</arg>&quot; Line <arg fmt="%d" index="2">200</arg>. Formal port <arg fmt="%s" index="3">wea</arg> does not exist in <arg fmt="%s" index="4">Component &apos;sram&apos;</arg>.
+</msg>
+
+<msg type="error" file="HDLParsers" num="850" delta="new" >&quot;<arg fmt="%s" index="1">/home/student2/mzizovsk/coe758/project1/project1/cachecontroller.vhd</arg>&quot; Line <arg fmt="%d" index="2">202</arg>. Formal port <arg fmt="%s" index="3">dina</arg> does not exist in <arg fmt="%s" index="4">Component &apos;sram&apos;</arg>.
+</msg>
+
+<msg type="error" file="HDLParsers" num="850" delta="new" >&quot;<arg fmt="%s" index="1">/home/student2/mzizovsk/coe758/project1/project1/cachecontroller.vhd</arg>&quot; Line <arg fmt="%d" index="2">203</arg>. Formal port <arg fmt="%s" index="3">douta</arg> does not exist in <arg fmt="%s" index="4">Component &apos;sram&apos;</arg>.
+</msg>
+
+<msg type="error" file="HDLParsers" num="837" delta="new" >&quot;<arg fmt="%s" index="1">/home/student2/mzizovsk/coe758/project1/project1/cachecontroller.vhd</arg>&quot; Line <arg fmt="%d" index="2">210</arg>. Width mismatch. Expected width <arg fmt="%u" index="3">32</arg>, Actual width is <arg fmt="%u" index="4">8</arg> for dimension <arg fmt="%d" index="5">1</arg> of <arg fmt="%s" index="6">CPU_DOut_signal</arg>.
+</msg>
+
+<msg type="error" file="HDLParsers" num="837" delta="new" >&quot;<arg fmt="%s" index="1">/home/student2/mzizovsk/coe758/project1/project1/cachecontroller.vhd</arg>&quot; Line <arg fmt="%d" index="2">211</arg>. Width mismatch. Expected width <arg fmt="%u" index="3">32</arg>, Actual width is <arg fmt="%u" index="4">8</arg> for dimension <arg fmt="%d" index="5">1</arg> of <arg fmt="%s" index="6">SDRAM_Dout_signal</arg>.
+</msg>
+
+<msg type="error" file="HDLParsers" num="837" delta="new" >&quot;<arg fmt="%s" index="1">/home/student2/mzizovsk/coe758/project1/project1/cachecontroller.vhd</arg>&quot; Line <arg fmt="%d" index="2">213</arg>. Width mismatch. Expected width <arg fmt="%u" index="3">32</arg>, Actual width is <arg fmt="%u" index="4">8</arg> for dimension <arg fmt="%d" index="5">1</arg> of <arg fmt="%s" index="6">mux1_output_signal_din</arg>.
+</msg>
+
+<msg type="error" file="HDLParsers" num="837" delta="new" >&quot;<arg fmt="%s" index="1">/home/student2/mzizovsk/coe758/project1/project1/cachecontroller.vhd</arg>&quot; Line <arg fmt="%d" index="2">218</arg>. Width mismatch. Expected width <arg fmt="%u" index="3">32</arg>, Actual width is <arg fmt="%u" index="4">8</arg> for dimension <arg fmt="%d" index="5">1</arg> of <arg fmt="%s" index="6">mux2_output_signal_mainMem</arg>.
+</msg>
+
+<msg type="error" file="HDLParsers" num="837" delta="new" >&quot;<arg fmt="%s" index="1">/home/student2/mzizovsk/coe758/project1/project1/cachecontroller.vhd</arg>&quot; Line <arg fmt="%d" index="2">219</arg>. Width mismatch. Expected width <arg fmt="%u" index="3">32</arg>, Actual width is <arg fmt="%u" index="4">8</arg> for dimension <arg fmt="%d" index="5">1</arg> of <arg fmt="%s" index="6">CPU_DIn_signal</arg>.
+</msg>
+
+<msg type="error" file="HDLParsers" num="837" delta="new" >&quot;<arg fmt="%s" index="1">/home/student2/mzizovsk/coe758/project1/project1/cachecontroller.vhd</arg>&quot; Line <arg fmt="%d" index="2">221</arg>. Width mismatch. Expected width <arg fmt="%u" index="3">32</arg>, Actual width is <arg fmt="%u" index="4">8</arg> for dimension <arg fmt="%d" index="5">1</arg> of <arg fmt="%s" index="6">mux2_input_signal_dout</arg>.
+</msg>
+
+<msg type="error" file="HDLParsers" num="837" delta="new" >&quot;<arg fmt="%s" index="1">/home/student2/mzizovsk/coe758/project1/project1/cachecontroller.vhd</arg>&quot; Line <arg fmt="%d" index="2">237</arg>. Width mismatch. Expected width <arg fmt="%u" index="3">3</arg>, Actual width is <arg fmt="%u" index="4">4</arg> for dimension <arg fmt="%d" index="5">1</arg> of <arg fmt="%s" index="6">index_signal</arg>.
+</msg>
+
+<msg type="error" file="HDLParsers" num="837" delta="new" >&quot;<arg fmt="%s" index="1">/home/student2/mzizovsk/coe758/project1/project1/cachecontroller.vhd</arg>&quot; Line <arg fmt="%d" index="2">247</arg>. Width mismatch. Expected width <arg fmt="%u" index="3">3</arg>, Actual width is <arg fmt="%u" index="4">4</arg> for dimension <arg fmt="%d" index="5">1</arg> of <arg fmt="%s" index="6">index_signal</arg>.
+</msg>
+
+<msg type="error" file="HDLParsers" num="837" delta="new" >&quot;<arg fmt="%s" index="1">/home/student2/mzizovsk/coe758/project1/project1/cachecontroller.vhd</arg>&quot; Line <arg fmt="%d" index="2">256</arg>. Width mismatch. Expected width <arg fmt="%u" index="3">3</arg>, Actual width is <arg fmt="%u" index="4">4</arg> for dimension <arg fmt="%d" index="5">1</arg> of <arg fmt="%s" index="6">index_signal</arg>.
+</msg>
+
+<msg type="error" file="HDLParsers" num="804" delta="new" >&quot;<arg fmt="%s" index="1">/home/student2/mzizovsk/coe758/project1/project1/cachecontroller.vhd</arg>&quot; Line <arg fmt="%d" index="2">269</arg>. Size of <arg fmt="%s" index="3">addr_Out_signal</arg> is different than size of <arg fmt="%s" index="4">the target</arg>.
+</msg>
+
+<msg type="error" file="HDLParsers" num="804" delta="new" >&quot;<arg fmt="%s" index="1">/home/student2/mzizovsk/coe758/project1/project1/cachecontroller.vhd</arg>&quot; Line <arg fmt="%d" index="2">271</arg>. Size of <arg fmt="%s" index="3">addr_Out_signal</arg> is different than size of <arg fmt="%s" index="4">the target</arg>.
+</msg>
+
+<msg type="error" file="HDLParsers" num="800" delta="new" >&quot;<arg fmt="%s" index="1">/home/student2/mzizovsk/coe758/project1/project1/cachecontroller.vhd</arg>&quot; Line <arg fmt="%d" index="2">303</arg>. Type of <arg fmt="%s" index="3">state</arg> is incompatible with type of <arg fmt="%s" index="4">state4</arg>.
+</msg>
+
+<msg type="error" file="HDLParsers" num="837" delta="new" >&quot;<arg fmt="%s" index="1">/home/student2/mzizovsk/coe758/project1/project1/cachecontroller.vhd</arg>&quot; Line <arg fmt="%d" index="2">316</arg>. Width mismatch. Expected width <arg fmt="%u" index="3">8</arg>, Actual width is <arg fmt="%u" index="4">16</arg> for dimension <arg fmt="%d" index="5">1</arg> of <arg fmt="%s" index="6">SDRAM_addr</arg>.
+</msg>
+
+<msg type="error" file="HDLParsers" num="800" delta="new" >&quot;<arg fmt="%s" index="1">/home/student2/mzizovsk/coe758/project1/project1/cachecontroller.vhd</arg>&quot; Line <arg fmt="%d" index="2">318</arg>. Type of <arg fmt="%s" index="3">state</arg> is incompatible with type of <arg fmt="%s" index="4">state1</arg>.
+</msg>
+
+<msg type="error" file="HDLParsers" num="800" delta="new" >&quot;<arg fmt="%s" index="1">/home/student2/mzizovsk/coe758/project1/project1/cachecontroller.vhd</arg>&quot; Line <arg fmt="%d" index="2">327</arg>. Type of <arg fmt="%s" index="3">state</arg> is incompatible with type of <arg fmt="%s" index="4">state1</arg>.
+</msg>
+
+<msg type="error" file="HDLParsers" num="813" delta="new" >&quot;<arg fmt="%s" index="1">/home/student2/mzizovsk/coe758/project1/project1/cachecontroller.vhd</arg>&quot; Line <arg fmt="%d" index="2">266</arg>. Enumerated value <arg fmt="%s" index="3">state0</arg> is missing in <arg fmt="%s" index="4">case</arg>.
+</msg>
+
+</messages>
+

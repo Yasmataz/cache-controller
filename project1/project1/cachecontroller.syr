@@ -1,0 +1,162 @@
+Release 13.3 - xst O.76xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.05 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.05 secs
+ 
+--> 
+Reading design: cachecontroller.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "cachecontroller.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "cachecontroller"
+Output Format                      : NGC
+Target Device                      : xc3s500e-5-fg320
+
+---- Source Options
+Top Module Name                    : cachecontroller
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "/home/student2/mzizovsk/coe758/project1/project1/CPU_gen.vhd" in Library work.
+Entity <cpu_gen> compiled.
+Entity <CPU_gen> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "/home/student2/mzizovsk/coe758/project1/project1/SDRAMController.vhd" in Library work.
+Entity <SDRAMController> compiled.
+Entity <SDRAMController> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "/home/student2/mzizovsk/coe758/project1/project1/sram.vhd" in Library work.
+Entity <sram> compiled.
+Entity <sram> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "/home/student2/mzizovsk/coe758/project1/project1/mux_2to1.vhd" in Library work.
+Entity <mux_2to1> compiled.
+Entity <mux_2to1> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "/home/student2/mzizovsk/coe758/project1/project1/comparator.vhd" in Library work.
+Entity <comparator> compiled.
+Entity <comparator> (Architecture <comp>) compiled.
+Compiling vhdl file "/home/student2/mzizovsk/coe758/project1/project1/tag_register_file.vhd" in Library work.
+Entity <tag_register_file> compiled.
+Entity <tag_register_file> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "/home/student2/mzizovsk/coe758/project1/project1/bit_register_file.vhd" in Library work.
+Entity <bit_register_file> compiled.
+Entity <bit_register_file> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "/home/student2/mzizovsk/coe758/project1/project1/cachecontroller.vhd" in Library work.
+Entity <cachecontroller> compiled.
+ERROR:HDLParsers:850 - "/home/student2/mzizovsk/coe758/project1/project1/cachecontroller.vhd" Line 187. Formal port clka does not exist in Component 'SDRAMController'.
+ERROR:HDLParsers:850 - "/home/student2/mzizovsk/coe758/project1/project1/cachecontroller.vhd" Line 199. Formal port clka does not exist in Component 'sram'.
+ERROR:HDLParsers:850 - "/home/student2/mzizovsk/coe758/project1/project1/cachecontroller.vhd" Line 200. Formal port wea does not exist in Component 'sram'.
+ERROR:HDLParsers:850 - "/home/student2/mzizovsk/coe758/project1/project1/cachecontroller.vhd" Line 202. Formal port dina does not exist in Component 'sram'.
+ERROR:HDLParsers:850 - "/home/student2/mzizovsk/coe758/project1/project1/cachecontroller.vhd" Line 203. Formal port douta does not exist in Component 'sram'.
+ERROR:HDLParsers:837 - "/home/student2/mzizovsk/coe758/project1/project1/cachecontroller.vhd" Line 210. Width mismatch. Expected width 32, Actual width is 8 for dimension 1 of CPU_DOut_signal.
+ERROR:HDLParsers:837 - "/home/student2/mzizovsk/coe758/project1/project1/cachecontroller.vhd" Line 211. Width mismatch. Expected width 32, Actual width is 8 for dimension 1 of SDRAM_Dout_signal.
+ERROR:HDLParsers:837 - "/home/student2/mzizovsk/coe758/project1/project1/cachecontroller.vhd" Line 213. Width mismatch. Expected width 32, Actual width is 8 for dimension 1 of mux1_output_signal_din.
+ERROR:HDLParsers:837 - "/home/student2/mzizovsk/coe758/project1/project1/cachecontroller.vhd" Line 218. Width mismatch. Expected width 32, Actual width is 8 for dimension 1 of mux2_output_signal_mainMem.
+ERROR:HDLParsers:837 - "/home/student2/mzizovsk/coe758/project1/project1/cachecontroller.vhd" Line 219. Width mismatch. Expected width 32, Actual width is 8 for dimension 1 of CPU_DIn_signal.
+ERROR:HDLParsers:837 - "/home/student2/mzizovsk/coe758/project1/project1/cachecontroller.vhd" Line 221. Width mismatch. Expected width 32, Actual width is 8 for dimension 1 of mux2_input_signal_dout.
+ERROR:HDLParsers:837 - "/home/student2/mzizovsk/coe758/project1/project1/cachecontroller.vhd" Line 237. Width mismatch. Expected width 3, Actual width is 4 for dimension 1 of index_signal.
+ERROR:HDLParsers:837 - "/home/student2/mzizovsk/coe758/project1/project1/cachecontroller.vhd" Line 247. Width mismatch. Expected width 3, Actual width is 4 for dimension 1 of index_signal.
+ERROR:HDLParsers:837 - "/home/student2/mzizovsk/coe758/project1/project1/cachecontroller.vhd" Line 256. Width mismatch. Expected width 3, Actual width is 4 for dimension 1 of index_signal.
+ERROR:HDLParsers:804 - "/home/student2/mzizovsk/coe758/project1/project1/cachecontroller.vhd" Line 269. Size of addr_Out_signal is different than size of the target.
+ERROR:HDLParsers:804 - "/home/student2/mzizovsk/coe758/project1/project1/cachecontroller.vhd" Line 271. Size of addr_Out_signal is different than size of the target.
+ERROR:HDLParsers:800 - "/home/student2/mzizovsk/coe758/project1/project1/cachecontroller.vhd" Line 303. Type of state is incompatible with type of state4.
+ERROR:HDLParsers:837 - "/home/student2/mzizovsk/coe758/project1/project1/cachecontroller.vhd" Line 316. Width mismatch. Expected width 8, Actual width is 16 for dimension 1 of SDRAM_addr.
+ERROR:HDLParsers:800 - "/home/student2/mzizovsk/coe758/project1/project1/cachecontroller.vhd" Line 318. Type of state is incompatible with type of state1.
+ERROR:HDLParsers:800 - "/home/student2/mzizovsk/coe758/project1/project1/cachecontroller.vhd" Line 327. Type of state is incompatible with type of state1.
+ERROR:HDLParsers:813 - "/home/student2/mzizovsk/coe758/project1/project1/cachecontroller.vhd" Line 266. Enumerated value state0 is missing in case.
+--> 
+
+
+Total memory usage is 589028 kilobytes
+
+Number of errors   :   21 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+
